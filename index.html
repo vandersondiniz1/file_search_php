@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Busca Áudio</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/read.css">
+</head>
+<body>
+
+<form action="find.php" method="post">
+
+	Data<br><input name="data" type="date" required></br>
+	CPF<br><input name="cpf" type="text" autocomplete="off" placeholder='Ex.: 09876543210'></br>
+	Telefone<br><input name="telefone1" type="text" autocomplete="off" placeholder='Ex.: 92028323'></br>
+	Telefone<br><input name="telefone2" type="text" autocomplete="off" placeholder='Ex.: 87264532'></br>
+	Adesao<br><input name="adesao" type="text" autocomplete="off" placeholder='Ex.: 928123124'></br>
+	Nome do Arquivo<br><input name="rotulo" autocomplete="off" type="text" placeholder='Ex.: rec_0000123124.gsm'  title='Pode pesquisar pelo nome completo ou apenas por trecho do nome'></br>
+	
+	<button type="submit">Procurar</button>
+
+</form>
+</body>
+</html>
